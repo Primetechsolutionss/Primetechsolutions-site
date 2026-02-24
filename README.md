@@ -1,2 +1,3 @@
 # Primetechsolutions-site
-websites
+website
+.
