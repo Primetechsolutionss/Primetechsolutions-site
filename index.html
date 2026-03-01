@@ -642,9 +642,12 @@
 <!-- NAV -->
 <nav>
   <a class="nav-logo" href="#">
-    <!-- Updated image path to point to the images subfolder -->
-    <img src="assets/images/previewlogo.png" alt="Primetech Solutions Logo">
-    <span class="nav-logo-text">Primetech<span> Solutions</span></span>
+   <!-- Inline SVG logo to avoid missing asset -->
+<svg width="38" height="38" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="Primetech Solutions Logo">
+  <circle cx="50" cy="50" r="48" fill="var(--gold)" />
+  <text x="50" y="64" font-size="60" font-family="var(--font-head)" font-weight="800" text-anchor="middle" fill="var(--black)">P</text>
+</svg>
+<span class="nav-logo-text">Primetech<span> Solutions</span></span>
   </a>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
